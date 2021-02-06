@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Sales Results" />
+        <item
+            android:id="@+id/nav_visit_customer"
+            android:icon="@drawable/ic_visis_customer"
+            android:title="Visit customer" />
+        <item
+            android:id="@+id/nav_makeneworder"
+            android:icon="@drawable/ic_neworder"
+            android:title="Make new order" />
+    </group>
+
+    <item android:title="Supporting Information">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_promotions"
+                android:icon="@drawable/ic_promotion"
+                android:title="Promotions" />
+            <item
+                android:id="@+id/nav_products"
+                android:icon="@drawable/ic_product"
+                android:title="Products" />
+            <item
+                android:id="@+id/nav_newcustomer"
+                android:icon="@drawable/ic_newcustomer"
+                android:title="New Customer" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="System">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_changepassword"
+                android:icon="@drawable/ic_changepassword"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log out" />
+            </group>
+        </menu>
+    </item>
+</menu>
